@@ -16,7 +16,7 @@
 docker-compose -f docker-compose.pub.yml up -d
 
 После автоматического завершения процесса установки - приложение доступно в веб-браузере по адресу:     
-http://localhost:3000/
+http://localhost:3000/    
 После закрытия web-приложения - его контейнеры можно удалить командой в терминале:     
 docker-compose -f docker-compose.pub.yml down
 
